@@ -2,16 +2,7 @@
 --- Skills used: Select/Delete/Update statements, Converting data types, Aggregate Functions
 
 --------------------------------------------------
--- Part 1: Loading/Observing Data
---------------------------------------------------
-
--- Load all data
-SELECT * 
-FROM flight_data
-ORDER BY 2,3
-
---------------------------------------------------
--- Part 2: Observing Number of Delays
+-- Part 1: Observing Number of Delays
 --------------------------------------------------
 
 -- Observe the number of delays for each carrier
@@ -27,7 +18,7 @@ GROUP BY origin
 ORDER BY 2 DESC
 
 --------------------------------------------------
--- Part 3: Net/Average Delay Times, Delays vs Day
+-- Part 2: Net/Average Delay Times, Delays vs Day
 --------------------------------------------------
 
 -- Calculate the net delay time of each flight (how much time each fight saved/lost in total)
@@ -62,7 +53,7 @@ GROUP BY DATEFROMPARTS(2013,month,day), carrier
 ORDER BY day_of_year, carrier
 
 --------------------------------------------------
--- Part 4: On Time Percentage
+-- Part 3: On Time Percentage
 --------------------------------------------------
 
 -- Calculate the On Time Percentage for each carrier (percent of time where arr_delay < 15 minutes)
@@ -94,7 +85,7 @@ GROUP BY origin, carrier
 ORDER BY OTP DESC
 
 --------------------------------------------------
--- Part 5: Flight Speed
+-- Part 4: Flight Speed
 --------------------------------------------------
 
 -- Calculate the Flight Speed of each flight
@@ -111,7 +102,7 @@ GROUP BY carrier
 ORDER BY 2 DESC
 
 --------------------------------------------------
--- Part 6: Code for Time Series Analysis in R
+-- Part 5: Code for Time Series Analysis in R
 --------------------------------------------------
 
 -- Observe the total number of delays experienced each day
