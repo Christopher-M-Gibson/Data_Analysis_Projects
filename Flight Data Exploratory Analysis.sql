@@ -108,13 +108,3 @@ SELECT carrier, avg(Flight_Speed) AS avg_flight_speed
 FROM flight_data
 GROUP BY carrier
 ORDER BY 2 DESC
-
---------------------------------------------------
--- Part 6: Code for Time Series Analysis in R
---------------------------------------------------
-
--- Observe the total number of delays experienced each day
-SELECT day_of_year, count(carrier) as num_delays
-FROM flight_data
-GROUP BY day_of_year
-ORDER by 1
