@@ -31,7 +31,7 @@ software used, the purpose of the project, the methods of analysis, and the resu
 &emsp; using a bar chart  
 
 5) Results:  
-&emsp; - The donut chart gives that roughly 75% of the ratings were perfect ratings (5/5), 
+&emsp; - The donut chart gives that roughly 75% of the ratings were perfect ratings (5/5),   
 &emsp; around 90% of ratings are at least a 3/5.  
 &emsp; - The sentiment analysis revealed that the reviews associated with the rating were  
 &emsp; mostly split between positive and neutral.  
