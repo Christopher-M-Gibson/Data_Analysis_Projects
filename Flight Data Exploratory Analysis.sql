@@ -32,15 +32,15 @@ WHERE (sched_arr_time IS NULL) OR (sched_dep_time IS NULL)
 SELECT COUNT(CASE WHEN day_of_year IS NULL THEN 1 END) AS DayOfYearNullCount,
     COUNT(CASE WHEN dep_time IS NULL THEN 1 END) AS DepTimeNullCount,
     COUNT(CASE WHEN sched_dep_time IS NULL THEN 1 END) AS SchedDepTimeNullCount,
-	COUNT(CASE WHEN dep_delay IS NULL THEN 1 END) AS DepDelayNullCount,
+    COUNT(CASE WHEN dep_delay IS NULL THEN 1 END) AS DepDelayNullCount,
     COUNT(CASE WHEN arr_time IS NULL THEN 1 END) AS ArrTimeNullCount,
-	COUNT(CASE WHEN sched_arr_time IS NULL THEN 1 END) AS SchedArrTimeNullCount,
+    COUNT(CASE WHEN sched_arr_time IS NULL THEN 1 END) AS SchedArrTimeNullCount,
     COUNT(CASE WHEN arr_delay IS NULL THEN 1 END) AS ArrDelayNullCount,
-	COUNT(CASE WHEN carrier IS NULL THEN 1 END) AS CarrierNullCount,
+    COUNT(CASE WHEN carrier IS NULL THEN 1 END) AS CarrierNullCount,
     COUNT(CASE WHEN flight IS NULL THEN 1 END) AS FlightNullCount,
-	COUNT(CASE WHEN origin IS NULL THEN 1 END) AS OriginNullCount,
+    COUNT(CASE WHEN origin IS NULL THEN 1 END) AS OriginNullCount,
     COUNT(CASE WHEN air_time IS NULL THEN 1 END) AS AirTimeNullCount,
-	COUNT(CASE WHEN distance IS NULL THEN 1 END) AS DistanceNullCount
+    COUNT(CASE WHEN distance IS NULL THEN 1 END) AS DistanceNullCount
 FROM flight_data
 
 -- Make a copy of the data such that there are no null values present
