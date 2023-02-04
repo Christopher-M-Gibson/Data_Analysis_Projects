@@ -29,6 +29,9 @@ software used, the purpose of the project, the methods of analysis, and the resu
 &emsp; For the second portion of the analysis, I used a sentiment analyzer to run through    
 &emsp; the comments to classify them as positive, negative, and neutral, visualizing that  
 &emsp; using a bar chart  
+&emsp; For the third portion of the analysis, I isolated the most negative reviews to     
+&emsp; find ways to improve the product. I did the same for the most positive reviews,  
+&emsp; except I looked to features of the product that should remain unchanged.
 
 5) Results:  
 &emsp; - The donut chart gives that roughly 75% of the ratings were perfect ratings (5/5),   
