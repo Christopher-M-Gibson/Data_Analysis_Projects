@@ -81,8 +81,8 @@ software used, the purpose of the project, the methods of analysis, and the resu
 &emsp;&emsp; This file contains the original dataset  
 &emsp; Weather_2013.xlsx  
 &emsp;&emsp; This file contains the data for the weather in 2013  
-&emsp; *TBD*  
-&emsp;&emsp; This PDF highlights the data cleaning for the file used for Tableau visualization  
+&emsp; Flight_Analysis_Excel_Data_Cleaning_for_Tableau.pdf   
+&emsp;&emsp; This PDF highlights the Excel file returned from the last SQL query and the data cleaning required in order to visualize the data  
 
 2) Software Used:  
 &emsp; Excel, SQL (SQL Server) 
